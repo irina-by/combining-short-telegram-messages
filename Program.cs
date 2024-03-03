@@ -19,7 +19,7 @@ class Program
 
     static async Task Main()
     {
-        botClient = new TelegramBotClient("7107188206:AAFPehL0giFpf1l43unWdMcZJlSrKE0aZxc"); // Создание экземпляра TelegramBotClient с токеном
+        botClient = new TelegramBotClient("YOUR_BOT_TOKEN"); // Создание экземпляра TelegramBotClient с токеном
 
         using CancellationTokenSource cts = new CancellationTokenSource(); // источник отмены токина, который сработает в случае необходимости
 
